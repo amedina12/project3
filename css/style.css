@@ -29,8 +29,6 @@
   padding: 10px 20px;
   color: #341d0c;
   text-decoration: none;
-  flex: none;
-  flex-direction: row;
 }
 
 #main-nav ul li a:hover {
@@ -319,14 +317,4 @@ iframe {
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.72);
   width: 800px;
   height: 450px;
-}
-
-@media screen and (min-width: 800px) {
-  #indexpage {
-    font-size: 20px;
-    padding: 0px;
-    display: flex;
-    flex-direction:column;
-    color: rgb(201, 140, 49);
-  }
 }
