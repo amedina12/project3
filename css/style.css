@@ -318,3 +318,13 @@ iframe {
   width: 800px;
   height: 450px;
 }
+
+@media only screen and (max-width: 600px) {
+  #index-page {
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+}
