@@ -329,3 +329,7 @@ iframe {
   color: orange;
   font-size: 2em;
 }
+
+#map p{
+  font-size: .5em;
+}
