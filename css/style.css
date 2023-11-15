@@ -29,6 +29,8 @@
   padding: 10px 20px;
   color: #341d0c;
   text-decoration: none;
+  flex: none;
+  flex-direction: row;
 }
 
 #main-nav ul li a:hover {
