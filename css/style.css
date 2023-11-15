@@ -319,12 +319,12 @@ iframe {
   height: 450px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (min-width: 800px) {
   #indexpage {
-    font-size: 14px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 0px;
     display: flex;
-    flex-direction: column;
-    color: black;
+    flex-direction:column;
+    color: rgb(201, 140, 49);
   }
 }
