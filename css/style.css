@@ -320,7 +320,7 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
-  #index-page {
+  #indexpage {
     font-size: 14px;
     padding: 10px;
     display: flex;
