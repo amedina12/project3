@@ -318,3 +318,14 @@ iframe {
   width: 800px;
   height: 450px;
 }
+
+#map{
+  text-align: center;
+  font-size: 2em;
+  padding-inline: 20%;
+}
+
+#map h1{
+  color: orange;
+  font-size: 2em;
+}
