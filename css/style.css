@@ -319,22 +319,11 @@ iframe {
   height: 450px;
 }
 
-#map{
-  text-align:left;
-  font-size: 2em;
-  padding-inline: 20%;
-}
 
-#map h1{
-  color: orange;
-  font-size: 2em;
-}
 
-#map p{
-  font-size: .7em;
-  box-sizing: content-box;
-  width: 100%;
-}
+
+
+
 
 .container{
     width: 540px;
@@ -386,4 +375,87 @@ iframe {
 
 .prev{
 	left: 0;
+}
+
+
+#iceland:hover {
+  display: block;
+  background-color: rgb(38, 62, 49);
+  transition: background-color 0.4s;
+  color: rgb(149, 123, 141);
+  margin: auto;
+  padding: 1px;
+  padding-bottom: 40px;
+}
+#iceland h1{
+  color: orange;
+  font-size: 4em;
+}
+
+#iceland p{
+  font-size: 2em;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+#map {
+  margin: auto;
+  height: 650px;
+  width: 80%;
+  margin-top: 200px; /* Add some margin at the top */
+  border-radius: 12%;
+  border: 15px solid;
+  border-color: #d47425;
+}
+
+#icelandlist {
+  font-size: 1.5em;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  color: rgb(84, 82, 82);
+}
+
+#icelandlist ul{
+list-style-type: circle;
+}
+
+@media screen and (min-width: 600px) {
+  #iceland {
+    font-size: 1.3em;
+    text-align: center;
+    margin: 20px;
+  }
+
+  #iceland p {
+    line-height: 1.5;
+  }
+
+  #icelandlist {
+    margin-top: 250px;
+  }
+
+  #icelandlist ul {
+    list-style-type: upper-roman;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  #iceland {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 30px;
+  }
+
+  #iceland p {
+    line-height: 1.8;
+  }
+
+  #icelandlist {
+    margin-top: 30px;
+  }
+
+  #icelandlist ul {
+    list-style-type: circle;
+  }
 }
